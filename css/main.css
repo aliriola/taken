@@ -218,9 +218,7 @@ header img {
         border: 2px solid black;
     }
 
-    .pic {
-        
-    }
+
 
 
 
@@ -297,6 +295,7 @@ header img {
     .pic {
         margin: 0 auto;
         width:50%;
+       height:190px;
     }
 
   
