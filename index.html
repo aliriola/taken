@@ -28,12 +28,14 @@
                 
 
                 <div class="content" itemscope itemtype="http://schema.org/MovieStills">
-                
+                <div class="picwrap">
+
                     <div class="pic item1"><picture><img src="img/item1.jpg"></picture></div>
                     <div class="pic item2"><picture><img src="img/item2.jpg"></picture></div>
                     <div class="pic item3"><picture><img src="img/item3.jpg"></picture></div>
                     <div class="pic item4"><picture><img src="img/item4.jpg"></picture></div>
                      <div class="pic item5"><picture><img src="img/item5.jpg"></picture></div>
+                     </div>
                    
                 </div> <!--ends content -->
                 
@@ -52,10 +54,20 @@
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna. </p>
 
                     <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl.</p>
-                    </div>
+                    </div> <!--ends leftarticle -->
                     <div itemscope itemtype="http://schema.org/MoviePoster" class="items rightarticle">
-                        <picture><img src="img/poster.jpg"></picture></div>
-                    </div>
+                    <div class="please">
+                        <picture>
+                            <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="img/poster.jpg" media="(min-width: 720px)">
+  <source srcset="img/postermed.jpg" media="(min-width: 520px)">
+  <source srcset="img/postersm.jpg" media="(min-width: 320px)">
+  <!--[if IE 9]></video><![endif]-->
+  <img srcset="img/poster.jpg" alt="poster">
+
+                        </picture>
+                        </div>
+                    </div> <!--ends rightarticle -->
 
                     </div> <!--ends bottom -->
 

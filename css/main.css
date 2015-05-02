@@ -91,10 +91,12 @@ header img {
 
 }
 
-.content {
+
+
+.picwrap {
     width:100%;
     background-color: #333;
-    margin: 0 auto;
+    
     display: flex;
     flex-flow: row wrap;
     align-content: center;
@@ -206,6 +208,15 @@ header img {
 
 }
 
+.please {
+    width:75%;
+    margin: 0 auto;
+}
+
+
+.pic img {
+        border: 2px solid black;
+    }
 
 
 
@@ -239,6 +250,21 @@ header img {
          
     }
 
+    .please{
+        
+        margin: 0 auto;
+        width:50%;
+        
+       
+
+    }
+
+    .pic img {
+        border: 2px solid black;
+        margin: 0 auto;
+        width: 100%;
+    }
+
 
 
   
@@ -254,6 +280,24 @@ header img {
          height:105px;
          
     }
+
+    .please{
+        
+        margin: 0 auto;
+        width:60%;
+        
+       
+
+    }
+
+    .pic {
+        margin: 0 auto;
+        width:50%;
+    }
+
+  
+
+    
 
 
 }
