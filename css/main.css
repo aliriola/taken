@@ -232,10 +232,31 @@ header img {
 @media only screen and (max-width: 700px) {
     .bottom {
         flex-wrap:wrap;
+
+    }
+
+    header {
+         height:205px;
+         
     }
 
   
 }
+
+@media only screen and (max-width: 400px) {
+    .bottom {
+        flex-wrap:wrap;
+
+    }
+
+    header {
+         height:105px;
+         
+    }
+
+  
+}
+
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
