@@ -267,6 +267,32 @@ header img {
         width: 100%;
     }
 
+    .content {
+        height:790px;
+        background-color: #333;
+    }
+
+    .picwrap {
+        height:570px;
+        
+    }
+
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .content {
+        height:730px;
+        background-color: #333;
+    }
+
+    .picwrap {
+        height:570px;
+        
+    }
+
 
 
   
@@ -279,7 +305,7 @@ header img {
     }
 
     header {
-         height:105px;
+         height:355px;
          
     }
 
@@ -297,6 +323,14 @@ header img {
         width:50%;
        height:190px;
     }
+
+
+.content {
+        height:860px;
+        background-color: #333;
+    }
+
+
 
   
 
