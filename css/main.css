@@ -159,6 +159,7 @@ header img {
 
 
 .play {
+   flex-wrap: wrap;
     align-self:center;
 }
 
@@ -328,6 +329,10 @@ header img {
 .content {
         height:860px;
         background-color: #333;
+    }
+
+    .trailer {
+        height:200px;
     }
 
 
